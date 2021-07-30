@@ -5,11 +5,16 @@
     <title>My App</title>
 </head>
 <body>
+{% extends "bootstrap_layout.html" %}
+{% set active_page = "home" %}
+
+{% block content %}
 
     <h1>Welcome Home</h1>
 
     <p>This is a paragraph on the "home" page.</p>
 
+{% endblock %}
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
