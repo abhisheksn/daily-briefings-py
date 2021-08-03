@@ -5,8 +5,7 @@
     <title>My App</title>
 </head>
 <body>
-{% extends "bootstrap_layout.html" %}
-{% set active_page = "about" %}
+{% extends "layout.html" %}
 
 {% block content %}
 
@@ -15,7 +14,6 @@
     <p>This is a paragraph on the "about" page.</p>
 
 {% endblock %}
-
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
